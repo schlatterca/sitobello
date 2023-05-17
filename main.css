@@ -1,0 +1,71 @@
+/*
+	* {
+		color: green;
+	}
+*/
+
+h1 {
+	/*color: rgb(255,125,0);*/
+	/*color: #F4F4F4;*/
+	/*color: rgba(255, 125, 0, 0.1);*/
+	/*color: orangered;
+	opacity: .5;*/
+}
+
+p.rosso {
+	color: red;
+}
+
+#myId {
+	color: blue;
+}
+
+figure {
+	margin: 0;
+	width: 100%;
+	border: 2px dotted black;
+}
+
+figure > img {
+	width: 100%;
+}
+
+.box_testo > p {
+	color: red;
+}
+
+.tre_colonne {
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+}
+
+.tre_colonne > div.box {
+	width: 33%;
+}
+
+.tre_colonne > div.box:first-child {
+	background-color: rgba(0,255,0,0.2);
+	padding: 40px;
+}
+
+.tre_colonne > div.box:not(:first-child) {
+	background-color: rgba(255,0,0,0.2);
+}
+
+.tre_colonne > div.box:last-child {
+	padding: 1em;
+}
+
+.tre_colonne > div.box > p {
+	color: red;
+}
+
+.tre_colonne > div.box > img {
+	width: 100%;
+}
+
+
+
+
+
